@@ -1,0 +1,24 @@
+* {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+    .h-custom {
+      height: 100%;
+    }
+  }
+  .logo img {
+    width: 25%;
+  }
+  .ditto {
+    background-color: rgb(156, 92, 180);
+  }
+  .btn-primary {
+    background-color: rgb(156, 92, 180) !important;
+    border: none !important;
+  }
